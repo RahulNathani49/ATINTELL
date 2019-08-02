@@ -1,0 +1,119 @@
+body {
+    overflow-x: hidden;
+}
+
+.FirstMain {
+    position: relative;
+    background-image: url(../images/bg1.jpg);
+    background-size: cover;
+}
+
+.secondmain,
+.thirdmain {
+    height: 100%;
+    width: 300%;
+    position: relative;
+}
+
+.secondmain {
+    background-image: url(../images/bg1-fade.jpg);
+    background-size: cover;
+}
+
+.sec1,
+.sec2,
+.sec3,
+.sect1,
+.sect2,
+.sect3 {
+    width: 33.33%;
+    position: absolute;
+}
+
+.sec1,
+.sect1 {
+    left: 0;
+}
+
+.sec2,
+.sect2 {
+    left: 33.33%;
+}
+
+.sec3,
+.sect3 {
+    left: 66.66%;
+}
+
+header {
+    position: fixed;
+    background: #0e1521;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    z-index: 999;
+}
+
+header img {
+    width: 50px;
+}
+
+.nav-bar {
+    background-image: url(../images/nav-icon.png);
+    width: 21px;
+    height: 21px;
+    display: block;
+    cursor: pointer;
+    float: right;
+    background-size: cover;
+    background-position: center;
+}
+
+.cont {
+    color: white;
+}
+
+.cont h1 {
+    font-size: 55px;
+    font-family: 'Farro', sans-serif;
+    font-weight: 700;
+    letter-spacing: -2px;
+    padding: 10px 0;
+}
+
+.bord {
+    border: 10px solid #fdfdfe;
+}
+
+.cont h4 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 28px;
+    color: #616a7a;
+    font-family: 'Farro', sans-serif;
+    text-align: center;
+    position: relative;
+    z-index: 5;
+    letter-spacing: -2px;
+}
+
+.back {
+    background: #fdfdfe;
+    width: 90%;
+}
+
+.cont {
+    position: relative;
+}
+
+.dash {
+    height: 600px;
+    width: 4px;
+    border-right: 4px dashed #fdfdfe;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    margin-left: -2px;
+}
